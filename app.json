@@ -1,0 +1,30 @@
+{
+  "name": "Approve Bot",
+  "description": "A bot to handle chat join requests with KYC verification.",
+  "env": {
+    "API_ID": {
+      "description": "Your Telegram API ID",
+      "value": "10898479"
+    },
+    "API_HASH": {
+      "description": "Your Telegram API HASH",
+      "value": "fd17158b509fedb13958705152c3c01e"
+    },
+    "BOT_TOKEN": {
+      "description": "Your Telegram BOT TOKEN",
+      "value": "8035235666:AAHx3lJFYPrOXAD6IKrpyp1KJMXMGf1wclk"
+    },
+    "MONGO_URI": {
+      "description": "Your MongoDB URI",
+      "value": "mongodb+srv://balckmarket:balckmarket@balckmarket.vgd9k.mongodb.net/?retryWrites=true&w=majority&appName=balckmarket"
+    },
+    "AUTH_CHAT": {
+      "description": "Authorized chat ID",
+      "value": "-1001462362455"
+    },
+    "AUTH_ADMIN": {
+      "description": "Admin user ID",
+      "value": "378224477"
+    }
+  }
+}

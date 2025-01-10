@@ -1,6 +1,11 @@
 {
   "name": "Approve Bot",
   "description": "A bot to handle chat join requests with KYC verification.",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
   "env": {
     "API_ID": {
       "description": "Your Telegram API ID",
